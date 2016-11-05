@@ -1,0 +1,43 @@
+  // head == botstrap + jq
+  
+  <section class="content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <aside id="sidebar" class="col-sm-12 col-md-3" style="position: relative">
+                        <div id="element_scoll">
+                                  <div id="sticky_item"    class="sticky_item list-group table-of-contents">
+                                      <a class="list-group-item active" href="#navbar">Navbar</a>
+                                      <a class="list-group-item" href="#buttons">Buttons</a>
+                                      <a class="list-group-item" href="#typography">Typography</a>
+                                      <a class="list-group-item" href="#tables">Tables</a>
+                                      <a class="list-group-item" href="#forms">Forms</a>
+                                      <a class="list-group-item" href="#navs">Navs</a>
+                                      <a class="list-group-item" href="#indicators">Indicators</a>
+                                      <a class="list-group-item" href="#progress-bars">Progress bars</a>
+                                      <a class="list-group-item" href="#containers">Containers</a>
+                                      <a class="list-group-item" href="#dialogs">Dialogs</a>
+                                  </div>
+                              </div>
+                   </aside>
+
+                    <article class="col-sm-12 col-md-9">
+                        @include('default.page.home')
+                    </article>
+
+                </div>
+            </div>
+</section>
+ 
+ 
+ 
+ 
+
+<script>
+ // call function
+    scoll_sidebar(".content", ".sticky_item", 100);
+    // cách sử dụng
+
+    // tham số một là khối chứa nó  cùng nội dung mà là 1 hàng có chứa chiều c
+    // tham số 2 là chính nó element cần csroll
+    // tham số 3 là margin-top khoảng cách mặc định
+</script>
