@@ -10,12 +10,11 @@ function scoll_sidebar($block_content, $id_my_element) {
         typeof $my_element_scoll == "object" && $my_element_scoll !== null
     ) {
 
-        // diem bat dau chay
-        const $block_start = $block_element.offset().top;
-        const $block_stop = $block_start + $block_element.outerHeight(true);
-
 
         $(window).scroll(function () {
+            // diem bat dau chay
+            $block_start = $block_element.offset().top;
+            $block_stop = $block_start + $block_element.outerHeight(true);
             // khoang cach margin-top
             $margin_top = ($(this).scrollTop() - $block_start);
 
@@ -52,7 +51,7 @@ function scoll_sidebar($block_content, $id_my_element) {
 // </script>
 
 /*-- html -botstrap */
- /*
+/*
  <section class="content">
  <div class="row">
  <div class="col-sm-12">
