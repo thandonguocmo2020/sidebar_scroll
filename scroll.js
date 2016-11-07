@@ -49,6 +49,19 @@ function scoll_sidebar($block_content, $id_my_element) {
 //     scoll_sidebar(".content", ".sticky_item");
 // });
 // </script>
+//Chặn trôi trong mobile bằng cách đưa vào kích thước thiết bị và class hoặc id cần chặn margin-top :0px ;
+/*
+@media (min-width: 280px) and (max-width: 680px) {
+
+  #sticky_item {
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+  }
+}
+
+*/
+
+
 
 /*-- html -botstrap */
 /*
