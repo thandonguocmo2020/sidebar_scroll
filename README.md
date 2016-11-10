@@ -9,7 +9,7 @@ Bước 1 : Đưa 2 khối cần vào function tham_so_1 là khối cần trôi.
 
 Bước 2 : Lấy vị trí hiện tại khối cần trôi.
 
-Bước 3 : Lấy chiều cao của nó để tính toán cự ly cần dừng
+Bước 3 : Lấy chiều cao của nó để tính toán cự li  đẩy
 
 Bước 4 : Lấy khối có chiều cao cần so sánh để dừng
 
