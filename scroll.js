@@ -1,4 +1,4 @@
-function scoll_sidebar($block_scroll, $block_height_stop) {
+function scroll_sidebar($block_scroll, $block_height_stop) {
 
     $block_scroll = $($block_scroll); // khối cần scroll chạys
     $block_right = $($block_height_stop); // khối chiều cao cần dừng
