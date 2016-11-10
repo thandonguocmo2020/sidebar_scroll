@@ -29,10 +29,12 @@ nếu cuộn chuột lớn hơn cư ly tính toán và so sánh với khối câ
 dừng điểm dừng.  stop margin : 0px;
 
 
-``` <script src="../js/sidebar.js"></script>
+```
+<script src="../js/sidebar.js"></script>
    <script>
    $(document).ready(function () {
       scoll_sidebar("#block_scroll", "#content_right");
    });
 
-  </script>```
+  </script>
+  ```
