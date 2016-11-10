@@ -1,32 +1,39 @@
-# sidebar_scroll
-trôi sidebar 
+*1. Tác dụng*
 
-Một function mà nhận khối cần trôi và khối cần so sánh.
+# Trôi menu khi cuộn chuột. 
+
+*2. Logic *
 
 
-Bước 1 : Lấy vị trí top khối cần trôi cho biết điểm bắt đầu  co giãn khoảng cách từ top.
+Bước 1 : Đưa 2 khối cần vào function tham_so_1 là khối cần trôi. tham_so_2 là khối cần so sánh
 
-Bước 2 : lấy chiều cao của nó để tính toán cự ly cần dừng
+Bước 2 : Lấy vị trí hiện tại khối cần trôi.
 
-Bước 3 : Lấy khối có chiều cao cần so sánh để dừng
+Bước 3 : Lấy chiều cao của nó để tính toán cự ly cần dừng
 
-Bước 4 : Tính toán khoảng cách cần giãn
+Bước 4 : Lấy khối có chiều cao cần so sánh để dừng
 
-Bước 5 : Check điểu kiện sự kiện cuột chuột bắt đầu giãn khoảng cách
+Bước 5 : Tính toán khoảng cách cần cách top
 
-Bước 6 : Giãn khoảng cách bằng với cự ly tính toán.
+Bước 5 : Check điểu kiện sự kiện cuột chuột bắt đầu giãn khoảng cách margin-top
+
+Bước 6 : Giãn khoảng cách bằng với cự li  tính toán.
 
 Bước 7 : check điểm dừng…
 
 
-
 nếu cuộn chuột lớn hơn vị trí hiện tại của khối cần cuộn 
 
-– co giãn “Trôi”
+– co giãn “Trôi” menu 
 
-nếu cuộn chuột lớn hơn cư ly tính toán và so sánh với khối cân bằng 
+nếu cuộn chuột lớn hơn cư li tính toán khi so sánh 
 
-dừng điểm dừng.  stop margin : 0px;
+ stop margin : 0px;
+
+
+
+*3. Cách dùng : *
+
 
 
 ```
@@ -38,3 +45,7 @@ dừng điểm dừng.  stop margin : 0px;
 
   </script>
   ```
+
+html :
+
+Tạo 2 hai khối trái phải kèm độ cao đưa khối đó vào function chạy thử 
