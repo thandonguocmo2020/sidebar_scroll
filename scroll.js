@@ -4,7 +4,7 @@ function scoll_sidebar($block_scroll, $block_height_stop) {
     $block_right = $($block_height_stop); // khối chiều cao cần dừng
 
 
-    if ($block_scroll !== null) {
+    if ($block_scroll !== null && $block_right !== null) {
 
         // khối lấy vị trí top bắt đầu chạy
         $block_start = $block_scroll.offset().top;
