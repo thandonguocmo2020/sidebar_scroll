@@ -9,11 +9,9 @@ Bước 1 : Đưa 2 khối cần vào function tham_so_1 là khối cần trôi.
 
 Bước 2 : Lấy vị trí hiện tại khối cần trôi.
 
-Bước 3 : Lấy chiều cao của nó để tính toán cự li  đẩy
+Bước 3 : Lấy chiều cao của nó
 
-Bước 4 : Lấy khối có chiều cao cần so sánh để dừng
-
-Bước 5 : Tính toán khoảng cách cần cách top
+Bước 4 : Lấy khối có chiều cao cần so sánh để dừng tính toán 
 
 Bước 5 : Check điểu kiện sự kiện cuột chuột bắt đầu giãn khoảng cách margin-top
 
