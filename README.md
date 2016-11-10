@@ -27,3 +27,12 @@ nếu cuộn chuột lớn hơn vị trí hiện tại của khối cần cuộn
 nếu cuộn chuột lớn hơn cư ly tính toán và so sánh với khối cân bằng 
 
 dừng điểm dừng.  stop margin : 0px;
+
+
+   <script src="../js/sidebar.js"></script>
+    <script>
+        $(document).ready(function () {
+            scoll_sidebar("#sticky_item", "#content_right");
+        });
+
+    </script>
