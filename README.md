@@ -40,7 +40,7 @@ nếu cuộn chuột lớn hơn cư li tính toán khi so sánh
 <script src="../js/sidebar.js"></script>
    <script>
    $(document).ready(function () {
-      scoll_sidebar("#block_scroll", "#content_right");
+      scroll_sidebar("#block_scroll", "#content_right");
    });
 
   </script>
