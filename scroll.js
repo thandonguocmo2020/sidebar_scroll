@@ -30,6 +30,12 @@ function scroll_sidebar($block_scroll, $block_height_stop) {
                 }, 1000);
             }
 
+           if ($(this).scrollTop() <= $block_start) {
+                $block_scroll.stop().animate({
+                    marginTop: 0 + 'px'
+                }, 1000);
+            }
+            
             // bắt dừng chạy
             if ($(this).scrollTop() > $block_stop) {
                 $block_scroll.stop().animate({
